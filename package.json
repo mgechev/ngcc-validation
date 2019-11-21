@@ -166,6 +166,7 @@
     "highcharts": ">=6.0.0",
     "highcharts-angular": "2.4.0",
     "highlight.js": "^9.15.9",
+    "igniteui-angular": "9.0.0-beta.3",
     "intl": "^1.2.5",
     "ionic-angular": "3.9.9",
     "jquery": ">=3.4.1",

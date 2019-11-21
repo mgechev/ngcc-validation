@@ -2699,6 +2699,11 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/hammerjs@^2.0.36":
+  version "2.0.36"
+  resolved "https://registry.yarnpkg.com/@types/hammerjs/-/hammerjs-2.0.36.tgz#17ce0a235e9ffbcdcdf5095646b374c2bf615a4c"
+  integrity sha512-7TUK/k2/QGpEAv/BCwSHlYu3NXZhQ9ZwBYpzr9tjlPIL2C5BeGhH3DmVavRx3ZNyELX5TLC91JTz/cen6AAtIQ==
+
 "@types/jasmine@*", "@types/jasmine@~3.4.0":
   version "3.4.4"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-3.4.4.tgz#be3fbd73e72725edb44e6f7f509cd52912d1550c"
@@ -6733,7 +6738,7 @@ grpc@1.24.0:
     node-pre-gyp "^0.13.0"
     protobufjs "^5.0.3"
 
-hammerjs@^2.0.0:
+hammerjs@^2.0.0, hammerjs@^2.0.8:
   version "2.0.8"
   resolved "https://registry.yarnpkg.com/hammerjs/-/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
   integrity sha1-BO93hiz/K7edMPdpIJWTAiK/YPE=
@@ -7037,6 +7042,17 @@ iferr@^0.1.5:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/iferr/-/iferr-0.1.5.tgz#c60eed69e6d8fdb6b3104a1fcbca1c192dc5b501"
   integrity sha1-xg7taebY/bazEEofy8ocGS3FtQE=
+
+igniteui-angular@9.0.0-beta.3:
+  version "9.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/igniteui-angular/-/igniteui-angular-9.0.0-beta.3.tgz#37b8d03aa389b313c01ca3f516384affbd822042"
+  integrity sha512-NhKA2jegzKXwQ7176q7rm/uTsA8eDnBNYQH7uPX5fA8WQKQNE5Kp95AzP6Oix9gq87HdljQGMLkfcfl/pWpW2Q==
+  dependencies:
+    "@types/hammerjs" "^2.0.36"
+    hammerjs "^2.0.8"
+    jszip "^3.1.5"
+    resize-observer-polyfill "^1.5.1"
+    tslib "^1.9.0"
 
 ignore-walk@^3.0.1:
   version "3.0.3"
@@ -7885,7 +7901,7 @@ jsrsasign@^8.0.12:
   resolved "https://registry.yarnpkg.com/jsrsasign/-/jsrsasign-8.0.12.tgz#22abb9656d34a30b9530436720835e89c2e5c316"
   integrity sha1-Iqu5ZW00owuVMENnIINeicLlwxY=
 
-"jszip@^2.0.0 || ^3.0.0", jszip@^3.1.0, jszip@^3.1.3:
+"jszip@^2.0.0 || ^3.0.0", jszip@^3.1.0, jszip@^3.1.3, jszip@^3.1.5:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/jszip/-/jszip-3.2.2.tgz#b143816df7e106a9597a94c77493385adca5bd1d"
   integrity sha512-NmKajvAFQpbg3taXQXr/ccS2wcucR1AZ+NtyWp2Nq7HHVsXhcJFR8p0Baf32C2yVvBylFWVeKf+WI2AnvlPhpA==
@@ -10604,7 +10620,7 @@ requires-port@^1.0.0:
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
-resize-observer-polyfill@^1.5.0:
+resize-observer-polyfill@^1.5.0, resize-observer-polyfill@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
   integrity sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==
